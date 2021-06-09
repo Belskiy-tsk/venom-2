@@ -1,5 +1,5 @@
 body{
-    background: #14131a;
+
     color:white;
     font-family:"Roboto",serif;
 }
@@ -53,4 +53,43 @@ body{
     line-height: 140%;
     color: rgba(255, 255, 255, 0.8);
     max-width: 423px;
+}
+
+.button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.button:hover{
+    cursor: pointer;
+}
+.button-text, .button-icon{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.button-primary{
+    color:#8d0019;
+    background-color: #fff;
+}
+
+.button-link{
+    color:#fff;
+}
+
+.button-group{
+    margin-top: 70px;
+}
+
+.venom{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blood{
+    background:url("../img/blood.png") no-repeat top right,#14131a url("../img/background.jpg") no-repeat center center/ 100%;
 }
