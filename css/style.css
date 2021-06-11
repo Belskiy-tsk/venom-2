@@ -232,6 +232,7 @@ img{
         margin-top: 20%;
     }
 }
+
 @media(max-width: 768px){
     .blood{
         background: #14131a;
@@ -239,6 +240,8 @@ img{
     .venom{
         top: 10%;
     }
+
+    
 }
 
 @media(max-width: 576px){
@@ -258,8 +261,9 @@ img{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-       transform: translateX(100%);
-       transition: transform 0.2s;
+        transform: translateX(100%);
+        transition: transform 0.2s;
+        opacity: 1;
     }
     .nav-menu-item{
         margin-right: 0;
@@ -269,12 +273,10 @@ img{
 
     .nav{
         margin-left: auto;
-       
     }
 
     .nav-menu-link{
         color:#14131a;
-
     }
 
     .menu-button{
@@ -291,32 +293,38 @@ img{
     .menu-button-text{
         margin-right: 10px;
     }
+
     .button-group{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
+
     .film-text{
         text-align: center;
     }
+
     .poster{
         margin-bottom: 4%;
         margin-right: 0;
         max-width: 350px;
         width: 100%;
     }
+
     .poster-wrapper{
         flex-direction: column;
     }
+
     .content .trailer{
         max-width: 350px;
         width: 100%;
     }
+
     .column-2{
         column-count: 1;
     }
-        
+       
     .menu-close{
         position: fixed;
         right: 25px;
